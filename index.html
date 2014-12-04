@@ -39,21 +39,21 @@
 <ul>
 <li>Android: Java</li>
 <li>iOS: Objective C</li>
-<li>Web applications: Javascript and Web Components (Polymere)</li>
+<li>Web applications: Javascript and Web Components (Polymer)</li>
 </ul>
 
 <p>For each target environment, Twinlife services are organized as a hierarchy along the following levels:</p>
 
 <ul>
 <li>Twinlife Base Services: generic twinlife platform services</li>
-<li>Twinlife Add-on Services: services specific to a particular application or extensions to the Twinlife Base Services.</li>
+<li>Application Services: services specific to a particular application or extensions to the Twinlife Base Services.</li>
 </ul>
 
 <h3>
 <a id="twinlife-base-services" class="anchor" href="#twinlife-base-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Twinlife Base Services</h3>
 
 <h4>
-<a id="management-services" class="anchor" href="#management-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Management Services</h4>
+<a id="management-service" class="anchor" href="#management-service" aria-hidden="true"><span class="octicon octicon-link"></span></a>Management Service</h4>
 
 <ul>
 <li>Configuration</li>
@@ -63,7 +63,7 @@
 </ul>
 
 <h4>
-<a id="account-services" class="anchor" href="#account-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Account Services</h4>
+<a id="account-service" class="anchor" href="#account-service" aria-hidden="true"><span class="octicon octicon-link"></span></a>Account Service</h4>
 
 <ul>
 <li>Sign Up</li>
@@ -72,7 +72,7 @@
 </ul>
 
 <h4>
-<a id="connectivity-services" class="anchor" href="#connectivity-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Connectivity Services</h4>
+<a id="connectivity-service" class="anchor" href="#connectivity-service" aria-hidden="true"><span class="octicon octicon-link"></span></a>Connectivity Service</h4>
 
 <ul>
 <li>Application connection/disconnection</li>
@@ -81,7 +81,7 @@
 </ul>
 
 <h4>
-<a id="roster-services-xmpp" class="anchor" href="#roster-services-xmpp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Roster Services (XMPP)</h4>
+<a id="roster-service-xmpp" class="anchor" href="#roster-service-xmpp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Roster Service (XMPP)</h4>
 
 <ul>
 <li>Contacts</li>
@@ -90,21 +90,21 @@
 </ul>
 
 <h4>
-<a id="chat-services-xmpp" class="anchor" href="#chat-services-xmpp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Chat Services (XMPP)</h4>
+<a id="chat-service-xmpp" class="anchor" href="#chat-service-xmpp" aria-hidden="true"><span class="octicon octicon-link"></span></a>Chat Service (XMPP)</h4>
 
 <ul>
 <li>Text chat messages</li>
 </ul>
 
 <h4>
-<a id="directory-services" class="anchor" href="#directory-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Directory Services</h4>
+<a id="directory-service" class="anchor" href="#directory-service" aria-hidden="true"><span class="octicon octicon-link"></span></a>Directory Service</h4>
 
 <ul>
 <li>Name to Object directory (LDAP style)</li>
 </ul>
 
 <h4>
-<a id="repository-services" class="anchor" href="#repository-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Services</h4>
+<a id="repository-service" class="anchor" href="#repository-service" aria-hidden="true"><span class="octicon octicon-link"></span></a>Repository Service</h4>
 
 <ul>
 <li>Object data base (based on PostgreSQL)</li>
@@ -112,49 +112,31 @@
 </ul>
 
 <h4>
-<a id="webrtc-services" class="anchor" href="#webrtc-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>WebRTC Services</h4>
+<a id="peer-connection-service-webrtc" class="anchor" href="#peer-connection-service-webrtc" aria-hidden="true"><span class="octicon octicon-link"></span></a>Peer Connection Service (WebRTC)</h4>
 
 <ul>
-<li>Peer connection</li>
-<li>Media stream</li>
-<li>Data channel</li>
+<li>Peer Connection</li>
+<li>Media Stream</li>
+<li>Data Channel</li>
 </ul>
 
 <h4>
 <a id="twincode-services" class="anchor" href="#twincode-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Twincode Services</h4>
 
 <ul>
-<li>Twincode Factory</li>
-<li>Twincode IN</li>
-<li>Twincode OUT</li>
-<li>Twincode Switch</li>
+<li>Twincode Factory Service</li>
+<li>Twincode INbound Service</li>
+<li>Twincode OUTbound Service</li>
+<li>Twincode Switch Service</li>
 </ul>
 
 <h3>
-<a id="twinlife-add-on-services" class="anchor" href="#twinlife-add-on-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Twinlife Add-on Services</h3>
-
-<h4>
-<a id="twinsee-services" class="anchor" href="#twinsee-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Twinsee Services</h4>
+<a id="twinme-application-services" class="anchor" href="#twinme-application-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Twinme Application Services</h3>
 
 <ul>
-<li>Roster (XMPP)</li>
-<li>Chat (XMPP)</li>
-</ul>
-
-<h4>
-<a id="twinme-services" class="anchor" href="#twinme-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Twinme Services</h4>
-
-<ul>
-<li>Twincodes</li>
-<li>Real-time chat</li>
-</ul>
-
-<h3>
-<a id="application-specific-services" class="anchor" href="#application-specific-services" aria-hidden="true"><span class="octicon octicon-link"></span></a>Application specific Services</h3>
-
-<ul>
-<li>Twinme typed objects</li>
-<li>Twinme protocol</li>
+<li>Twinme typed objects: using Twinlife Repository Service</li>
+<li>Twinme protocol: extension to Twinlife Peer Connection Service</li>
+<li>Real-time text (chat): using WebRTC Data Channel</li>
 </ul>
       </section>
     </div>
